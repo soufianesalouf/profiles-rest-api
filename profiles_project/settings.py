@@ -28,6 +28,8 @@ DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 # TODO: After deployment add the hostname here like this 'hostname url'
 # Add also '127.0.0.1' to allow run on a local vergant server
+# Don't forget to create a super user on the server to use the admin panel
+# on use/local/apps/prfiles-rest-api: sudo env/bin/python manage.py createsuperuser
 ALLOWED_HOSTS = []
 
 
