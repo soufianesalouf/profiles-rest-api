@@ -26,6 +26,8 @@ SECRET_KEY = 'or(kr&1$9!u+757$3ift8%y!t6mxfv6_b0hpqz7_bsfi@o*s9o'
 # bool(int(os.environ.get('DEBUG', 1))) set to fulse in production, and true in local machine
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
+# TODO: After deployment add the hostname here like this 'hostname url'
+# Add also '127.0.0.1' to allow run on a local vergant server
 ALLOWED_HOSTS = []
 
 
